@@ -1,0 +1,21 @@
+  body {
+      font-family: Arial, sans-serif;
+    }
+
+    #todo-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .todo-item {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+      margin: 5px 0;
+    }
+
+    .delete-btn {
+      cursor: pointer;
+      color: red;
+    }
